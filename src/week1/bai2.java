@@ -2,7 +2,7 @@ package week1;
 
 public class bai2 {
 
-    static boolean lasonguyento(int n){
+    public static boolean lasonguyento(int n){
         if(n < 2) return false;
 
         for (int i = 2; i <= n/2; i++){
