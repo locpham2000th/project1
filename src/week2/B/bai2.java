@@ -19,6 +19,7 @@ public class bai2 {
             s += 1.0/p;
         }
         System.out.println(s);
+        System.out.println("Phạm Xuân Lộc - 20183786");
     }
 
 }

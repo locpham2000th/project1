@@ -33,8 +33,6 @@ public class bai8 {
         int[] list = {4,4,2,0,0,7,9,1,1,0};
         int countZero = countElementZero(list);
         int x = countZero;
-//        System.out.println(countElementZero(list));
-//        System.out.println(searchElement(list,0));
         while (countZero != 0){
             int k = searchElement(list);
             delete(list,k);
