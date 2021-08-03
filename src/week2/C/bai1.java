@@ -6,7 +6,8 @@ import java.util.List;
 
 public class bai1 {
 
-    public static void main(String[] args) {
+    public static void bai5week2() {
+        System.out.println("Cho một dãy số tự nhiên, viết chương trình sắp xếp dãy này theo thứ tự giảm dần.");
         int[] list = {4,2,0,7,9,1};
         for(int i = 0; i < list.length; i++){
             for(int j = 0; j < list.length - i - 1; j++){

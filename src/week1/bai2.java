@@ -13,9 +13,10 @@ public class bai2 {
         return true;
     }
 
-    public static void main(String[] args) {
+    public static void bai2week1(){
         int count = 0;
         int start = 1;
+        System.out.println("In ra màn hình 20 số nguyên tố đầu tiên");
         while (count <= 20){
             if(lasonguyento(start) == true){
                 System.out.print(start + "  ");

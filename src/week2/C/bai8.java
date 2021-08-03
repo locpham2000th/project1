@@ -29,7 +29,8 @@ public class bai8 {
         }
     }
 
-    public static void main(String[] args) {
+    public static void bai12week2() {
+        System.out.println("Cho một dãy số nguyên bất kỳ, hãy xóa đi trong dãy này các số hạng =0 và in ra màn hình các số còn lại.");
         int[] list = {4,4,2,0,0,7,9,1,1,0};
         int countZero = countElementZero(list);
         int x = countZero;

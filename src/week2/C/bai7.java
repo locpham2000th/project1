@@ -2,7 +2,8 @@ package week2.C;
 
 public class bai7 {
 
-    public static void main(String[] args) {
+    public static void bai11week2() {
+        System.out.println("Cho một dãy số tự nhiên, hãy tìm 1 số tự nhiên nhỏ nhất c không bằng bất cứ số nào trong dãy trên.");
         int[] list = {4,4,2,0,0,7,9,1,1};
         for(int i = 0; i < list.length; i++){
             for(int j = 0; j < list.length - i - 1; j++){

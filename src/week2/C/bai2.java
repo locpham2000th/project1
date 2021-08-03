@@ -13,7 +13,8 @@ public class bai2 {
         return check;
     }
 
-    public static void main(String[] args) {
+    public static void bai6week2() {
+        System.out.println("Cho dãy số tự nhiên, in ra màn hình tất cả các số nguyên tố của dãy này.");
         int[] A = {4, 6, 3, 8, 5, 11, 19, 15};
         for(int i = 0; i < A.length; i++){
             if(songuyento(A[i])){

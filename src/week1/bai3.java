@@ -13,7 +13,8 @@ public class bai3 {
         return true;
     }
 
-    public static void main(String[] args) {
+    public static void bai3week1() {
+        System.out.println("In ra màn hình tất cả các số nguyên tố từ 1000 đến 2000");
         int start = 1000;
         while (start <= 2000){
             if(lasonguyento(start) == true){

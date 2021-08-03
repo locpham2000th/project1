@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class bai3 {
 
-    public static void main(String[] args) {
+    public static void bai3week2() {
+        System.out.println("Cho số tự nhiên N bất kỳ,\n" +
+                " tính tổng S=1+1/(1+2!) + 1/(1+2!+3!)+ ..+ 1/(1+2!+3!+..  +N!)");
         double p = 0;
         double s = 0;
         double c = 1;

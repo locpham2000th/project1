@@ -16,7 +16,8 @@ public class bai9 {
         return check;
     }
 
-    public static void main(String[] args) {
+    public static void bai9week1() {
+        System.out.println("Cho số tự nhiên N>1 bất kỳ (đã gán trước đó). In ra khai triển thành tích các số nguyên tố tính từ nhỏ đến lớn ");
         int N = 24;
         int i = 0;
         int point = N;

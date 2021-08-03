@@ -2,7 +2,7 @@ package week1;
 
 public class bai1 {
 
-    public static void main(String[] args) {
+    public static void week1bai1(){
 
         System.out.println("Các hợp số < 100");
         for(int i = 2; i < 100; i++){

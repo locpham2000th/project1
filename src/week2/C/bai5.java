@@ -28,7 +28,8 @@ public class bai5 {
         return true;
     }
 
-    public static void main(String[] args) {
+    public static void bai9week2() {
+        System.out.println("Cho một dãy số tự nhiên, hãy đếm xem trong dãy số trên có bao nhiêu số nguyên tố, có bao nhiêu hợp số.");
         int[] A = {4, 6, 3, 8, 5, 11, 19, 15};
         int countHopSo = 0;
         int countSoNguyenTo = 0;

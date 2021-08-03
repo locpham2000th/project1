@@ -16,7 +16,8 @@ public class bai10 {
         return check;
     }
 
-    public static void main(String[] args) {
+    public static void bai10week1() {
+        System.out.println("Cho trước số tự nhiên N bất kỳ (đã gán trước đó). In ra màn hình tất cả các ước số nguyên tố khác nhau của N.");
         int N = 12;
         int i = 2;
         List<Integer> result = new ArrayList<>();

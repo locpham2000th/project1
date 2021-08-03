@@ -28,7 +28,8 @@ public class bai6 {
         return false;
     }
 
-    public static void main(String[] args) {
+    public static void bai6week1() {
+        System.out.println("In ra màn hình 5 số hoàn hảo đầu tiên (Số hoàn hảo là số có tổng bằng các ước số của mình kể cả 1");
         int count = 0;
         int start = 6;
         while (count < 5){

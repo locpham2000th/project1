@@ -17,7 +17,8 @@ public class bai6 {
         }
     }
 
-    public static void main(String[] args) {
+    public static void bai10week2() {
+        System.out.println("Cho một dãy số tự nhiên, hãy in ra tất cả các số hạng của dãy trên thỏa mãn: số này là ước số thực sự của 1 số hạng khác trong dãy trên.");
         int[] A = {5, 3, 4, 9, 10, 6, 15, 8};
         sapxep(A);
         Set<Integer> result = new HashSet<>();

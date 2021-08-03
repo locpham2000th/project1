@@ -16,7 +16,8 @@ public class bai12 {
         }
     }
 
-    public static void main(String[] args) {
+    public static void bai12week1() {
+        System.out.println("Viết chương trình nhập chiều cao h từ bàn phím, sau đó hiển thị các tam giác hình sao có chiều cao h như dưới đây. Chú ý có kiểm tra điều kiện của h: 2<=h<=10. Nếu h nằm ngoài đoạn trên, yêu cầu người dùng nhập lại");
         System.out.println("Hãy nhập chiều cao của tam giác: ");
         while (true){
             Scanner input = new Scanner(System.in);
