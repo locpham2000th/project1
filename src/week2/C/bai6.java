@@ -1,6 +1,7 @@
 package week2.C;
 
 import java.util.HashSet;
+import java.util.Scanner;
 import java.util.Set;
 
 public class bai6 {
@@ -19,7 +20,16 @@ public class bai6 {
 
     public static void bai10week2() {
         System.out.println("Cho một dãy số tự nhiên, hãy in ra tất cả các số hạng của dãy trên thỏa mãn: số này là ước số thực sự của 1 số hạng khác trong dãy trên.");
-        int[] A = {5, 3, 4, 9, 10, 6, 15, 8};
+        Scanner scanner = new Scanner(System.in);
+        int N = scanner.nextInt();
+        scanner.nextLine();
+
+        int[] A = new int[N];
+        for (int i = 0; i < N; i++){
+            A[i] = scanner.nextInt();
+            scanner.nextLine();
+        }
+//      {5, 3, 4, 9, 10, 6, 15, 8};
         sapxep(A);
         Set<Integer> result = new HashSet<>();
         for(int i = 0; i < A.length; i++){

@@ -1,5 +1,7 @@
 package week2.C;
 
+import java.util.Scanner;
+
 public class bai5 {
 
     public static boolean hopso(int n){
@@ -30,7 +32,16 @@ public class bai5 {
 
     public static void bai9week2() {
         System.out.println("Cho một dãy số tự nhiên, hãy đếm xem trong dãy số trên có bao nhiêu số nguyên tố, có bao nhiêu hợp số.");
-        int[] A = {4, 6, 3, 8, 5, 11, 19, 15};
+        Scanner scanner = new Scanner(System.in);
+        int N = scanner.nextInt();
+        scanner.nextLine();
+
+        int[] A = new int[N];
+        for (int i = 0; i < N; i++){
+            A[i] = scanner.nextInt();
+            scanner.nextLine();
+        }
+//      {4, 6, 3, 8, 5, 11, 19, 15};
         int countHopSo = 0;
         int countSoNguyenTo = 0;
         for (int i = 0; i < A.length; i++){

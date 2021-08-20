@@ -1,5 +1,7 @@
 package week2.C;
 
+import java.util.Scanner;
+
 public class bai8 {
 
     public static int searchElement(int[] A){
@@ -31,7 +33,16 @@ public class bai8 {
 
     public static void bai12week2() {
         System.out.println("Cho một dãy số nguyên bất kỳ, hãy xóa đi trong dãy này các số hạng =0 và in ra màn hình các số còn lại.");
-        int[] list = {4,4,2,0,0,7,9,1,1,0};
+        Scanner scanner = new Scanner(System.in);
+        int N = scanner.nextInt();
+        scanner.nextLine();
+
+        int[] list = new int[N];
+        for (int i = 0; i < N; i++){
+            list[i] = scanner.nextInt();
+            scanner.nextLine();
+        }
+//      {4,4,2,0,0,7,9,1,1,0};
         int countZero = countElementZero(list);
         int x = countZero;
         while (countZero != 0){

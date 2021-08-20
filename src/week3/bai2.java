@@ -1,10 +1,14 @@
 package week3;
 
+import java.util.Scanner;
+
 public class bai2 {
 
     public static void bai2week3() {
         System.out.println("Cho trước xâu ký tự bất kỳ. Hãy đếm xem trong xâu có bao nhiêu lần xuất hiện xâu con “loc”");
-        String start = "loc biet lam tat ca moi thu, loc loc";
+        Scanner scanner = new Scanner(System.in);
+        String start = scanner.nextLine();
+//      "loc biet lam tat ca moi thu, loc loc";
         String find = "loc";
         int cnt = 0;
         while (start.length() > find.length()){

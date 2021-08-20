@@ -1,5 +1,7 @@
 package week1;
 
+import java.util.Scanner;
+
 public class bai8 {
 
     private static boolean songuyento(int n){
@@ -15,7 +17,8 @@ public class bai8 {
 
     public static void bai8week1() {
         System.out.println("Cho số tự nhiên N bất kỳ (đã gán trước đó), tìm và in ra ước số nguyên tố nhỏ nhất của N.");
-        int N = 17;
+        Scanner scanner = new Scanner(System.in);
+        int N = scanner.nextInt();
         int i = 2;
         while( i <= N){
             if(N % i == 0){

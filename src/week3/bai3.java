@@ -1,10 +1,13 @@
 package week3;
 
+import java.util.Scanner;
+
 public class bai3 {
 
     public static void bai3week3() {
         System.out.println("Cho trước 1 xâu ký tự là họ tên người đầy đủ, hãy tách ra phần tên của người này");
-        String fullName = "Phạm Xuân Lộc";
+        Scanner scanner = new Scanner(System.in);
+        String fullName = scanner.nextLine();
         String text = " ";
         while (fullName.indexOf(text) != -1){
             int i = fullName.indexOf(text);

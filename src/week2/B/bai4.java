@@ -1,5 +1,7 @@
 package week2.B;
 
+import java.util.Scanner;
+
 public class bai4 {
 
     private static int fibonasi(int n){
@@ -14,7 +16,10 @@ public class bai4 {
 
     public static void bai4week2() {
         System.out.println("Dãy Fibonaxi 1, 2, 3, … F(k) = F(k-1) + F(k-2). Tính số Fibonaxi thứ N.");
-        int result = fibonasi(5);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Hãy nhập N");
+        int N = scanner.nextInt();
+        int result = fibonasi(N);
         System.out.println(result);
         System.out.println("Phạm Xuân Lộc - 20183786");
     }

@@ -38,6 +38,7 @@ public class main {
         week3.bai7 bai7week3 = new week3.bai7();
         while (true){
             System.out.println("Hãy Nhập bài bạn muốn xem kết quả:");
+            System.out.println("VD: week 1 bài 2 thì viết 1.2......");
             Scanner input = new Scanner(System.in);
             String nhap = input.nextLine();
             switch (nhap){

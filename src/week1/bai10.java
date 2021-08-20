@@ -2,6 +2,7 @@ package week1;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class bai10 {
 
@@ -18,7 +19,8 @@ public class bai10 {
 
     public static void bai10week1() {
         System.out.println("Cho trước số tự nhiên N bất kỳ (đã gán trước đó). In ra màn hình tất cả các ước số nguyên tố khác nhau của N.");
-        int N = 12;
+        Scanner scanner = new Scanner(System.in);
+        int N = scanner.nextInt();
         int i = 2;
         List<Integer> result = new ArrayList<>();
         while (i <= N){

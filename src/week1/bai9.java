@@ -2,6 +2,7 @@ package week1;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class bai9 {
 
@@ -18,7 +19,8 @@ public class bai9 {
 
     public static void bai9week1() {
         System.out.println("Cho số tự nhiên N>1 bất kỳ (đã gán trước đó). In ra khai triển thành tích các số nguyên tố tính từ nhỏ đến lớn ");
-        int N = 24;
+        Scanner scanner = new Scanner(System.in);
+        int N = scanner.nextInt();
         int i = 0;
         int point = N;
         int start = 2;
